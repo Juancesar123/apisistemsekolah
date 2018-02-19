@@ -86,3 +86,12 @@ $router->get('acarasekolah/{id}', 'AcarasekolahsController@get');
 $router->post('acarasekolah', 'AcarasekolahsController@add');
 $router->put('acarasekolah/{id}', 'AcarasekolahsController@put');
 $router->delete('acarasekolah/{id}', 'AcarasekolahsController@remove');
+
+/**
+ * Routes for resource users
+ */
+$router->get('users', 'UsersController@all');
+$router->get('users/{id}', 'UsersController@get');
+$router->post('users', 'UsersController@add');
+$router->put('users/{id}', 'UsersController@put');
+$router->delete('users/{id}', 'UsersController@remove');

@@ -95,3 +95,21 @@ $factory->define(App\Acarasekolah::class, function ($faker) {
         'sekolah_id' => $faker->key,
     ];
 });
+
+/**
+ * Factory definition for model App\Task.
+ */
+$factory->define(App\Task::class, function ($faker) {
+    return [
+        // Fields here
+    ];
+});
+
+/**
+ * Factory definition for model App\Users.
+ */
+$factory->define(App\Users::class, function ($faker) {
+    return [
+        // Fields here
+    ];
+});

@@ -4,13 +4,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Kelas extends Model {
 
-    protected $fillable = ["kelas", "sekolah_id"];
+    protected $fillable = ["kelas", "idsekolah"];
 
     protected $dates = [];
 
     public static $rules = [
         "idsekolah" => "numeric",
-        "sekolah_id" => "required|numeric",
     ];
 
     public function sekolah()
