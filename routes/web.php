@@ -96,3 +96,4 @@ $router->post('users', 'UsersController@add');
 $router->put('users/{id}', 'UsersController@put');
 $router->delete('users/{id}', 'UsersController@remove');
 $router->get('users/status/{id}','UsersController@statuscriteria');
+$router->post('authentication', 'UsersController@auth');
