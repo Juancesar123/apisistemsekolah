@@ -97,3 +97,11 @@ $router->put('users/{id}', 'UsersController@put');
 $router->delete('users/{id}', 'UsersController@remove');
 $router->get('users/status/{id}','UsersController@statuscriteria');
 $router->post('authentication', 'UsersController@auth');
+/**
+ * Routes for resource rangkumannilai
+ */
+$router->get('rangkumannilai', 'RangkumannilaisController@all');
+$router->get('rangkumannilai/{id}', 'RangkumannilaisController@get');
+$router->post('rangkumannilai', 'RangkumannilaisController@add');
+$router->put('rangkumannilai/{id}', 'RangkumannilaisController@put');
+$router->delete('rangkumannilai/{id}', 'RangkumannilaisController@remove');

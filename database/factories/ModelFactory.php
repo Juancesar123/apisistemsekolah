@@ -113,3 +113,12 @@ $factory->define(App\Users::class, function ($faker) {
         // Fields here
     ];
 });
+
+/**
+ * Factory definition for model App\Rangkumannilai.
+ */
+$factory->define(App\Rangkumannilai::class, function ($faker) {
+    return [
+        'siswa_id' => $faker->key,
+    ];
+});
