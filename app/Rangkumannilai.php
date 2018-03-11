@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rangkumannilai extends Model {
 
-    protected $fillable = ["idsiswa", "nilaiharian", "uts", "ukk"];
+    protected $fillable = ["idsiswa", "nilaiharian", "uts", "ukk","totalnilai","tugas"];
 
     protected $dates = [];
 
