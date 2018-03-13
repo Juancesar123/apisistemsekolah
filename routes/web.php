@@ -105,3 +105,12 @@ $router->get('rangkumannilai/{id}', 'RangkumannilaisController@get');
 $router->post('rangkumannilai', 'RangkumannilaisController@add');
 $router->put('rangkumannilai/{id}', 'RangkumannilaisController@put');
 $router->delete('rangkumannilai/{id}', 'RangkumannilaisController@remove');
+
+/**
+ * Routes for resource jadwalpelajaran
+ */
+$router->get('jadwalpelajaran', 'JadwalpelajaransController@all');
+$router->get('jadwalpelajaran/{id}', 'JadwalpelajaransController@get');
+$router->post('jadwalpelajaran', 'JadwalpelajaransController@add');
+$router->put('jadwalpelajaran/{id}', 'JadwalpelajaransController@put');
+$router->delete('jadwalpelajaran/{id}', 'JadwalpelajaransController@remove');

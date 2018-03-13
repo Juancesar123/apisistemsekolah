@@ -122,3 +122,12 @@ $factory->define(App\Rangkumannilai::class, function ($faker) {
         'siswa_id' => $faker->key,
     ];
 });
+
+/**
+ * Factory definition for model App\Jadwalpelajaran.
+ */
+$factory->define(App\Jadwalpelajaran::class, function ($faker) {
+    return [
+        'kela_id' => $faker->key,
+    ];
+});
