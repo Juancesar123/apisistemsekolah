@@ -114,3 +114,21 @@ $router->get('jadwalpelajaran/{id}', 'JadwalpelajaransController@get');
 $router->post('jadwalpelajaran', 'JadwalpelajaransController@add');
 $router->put('jadwalpelajaran/{id}', 'JadwalpelajaransController@put');
 $router->delete('jadwalpelajaran/{id}', 'JadwalpelajaransController@remove');
+
+/**
+ * Routes for resource rekapabsen
+ */
+$router->get('rekapabsen', 'RekapabsensController@all');
+$router->get('rekapabsen/{id}', 'RekapabsensController@get');
+$router->post('rekapabsen', 'RekapabsensController@add');
+$router->put('rekapabsen/{id}', 'RekapabsensController@put');
+$router->delete('rekapabsen/{id}', 'RekapabsensController@remove');
+
+/**
+ * Routes for resource rekapabsens
+ */
+$router->get('rekapabsens', 'RekapabsensController@all');
+$router->get('rekapabsens/{id}', 'RekapabsensController@get');
+$router->post('rekapabsens', 'RekapabsensController@add');
+$router->put('rekapabsens/{id}', 'RekapabsensController@put');
+$router->delete('rekapabsens/{id}', 'RekapabsensController@remove');

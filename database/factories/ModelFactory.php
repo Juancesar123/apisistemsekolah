@@ -131,3 +131,30 @@ $factory->define(App\Jadwalpelajaran::class, function ($faker) {
         'kela_id' => $faker->key,
     ];
 });
+
+/**
+ * Factory definition for model App\Rekapabsen.
+ */
+$factory->define(App\Rekapabsen::class, function ($faker) {
+    return [
+        'project_id' => $faker->key,
+    ];
+});
+
+/**
+ * Factory definition for model App\Rekapabsens.
+ */
+$factory->define(App\Rekapabsens::class, function ($faker) {
+    return [
+        'siswa_id' => $faker->key,
+    ];
+});
+
+/**
+ * Factory definition for model App\Rekapabsens.
+ */
+$factory->define(App\Rekapabsens::class, function ($faker) {
+    return [
+        'siswa_id' => $faker->key,
+    ];
+});
